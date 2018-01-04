@@ -1,12 +1,25 @@
 #sw01blowup {
     display: none;
   }
-#sw01div {
+#sw01blowup {
    position: absolute;
-   top: 10px;
-   left: 10px;  
+   width: 50%;
+   height: 50%;
+   top: 50px;
+   left: 40px;  
    padding: 5px;
-
+   
+}
+#sw03blowup {
+	display: none;
+}
+#sw03blowup {
+   position: absolute;
+   width: 10%;
+   height: 30%;
+   top: 100px;
+   left: 400px;  
+   padding: 5px;
 }
 #container {
 	position: relative;
