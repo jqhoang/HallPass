@@ -1,0 +1,13 @@
+#sw01blowup {
+    display: none;
+  }
+#sw01div {
+   position: absolute;
+   top: 10px;
+   left: 10px;  
+   padding: 5px;
+
+}
+#container {
+	position: relative;
+}

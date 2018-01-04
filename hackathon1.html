@@ -1,0 +1,36 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="hackathon1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <title>BCIT Buddy</title
+
+</head>
+
+<body>
+
+	
+
+<script type="text/javascript">
+$(function() {
+  $("#sw01").click(function () {
+  if ( $( "#sw01blowup" ).is( ":hidden" ) ) {
+    $( "#sw01blowup" ).slideDown( "slow" );
+  } else {
+    $( "#sw01blowup" ).hide();
+  }
+});});  
+</script>
+<div id="container">
+<img src="schoolmap.png" alt="Map of BCIT" id="global" usemap="#schoolmap"//>
+<map name="schoolmap">
+		<area shape="rect" coords="940,325,1075,490" alt="SW01" id ="sw01"/>
+		<area shape="rect" coords="848,330,875,505"  alt="SW03" id ="sw03" />
+		<area shape="rect" coords="790,395,830,450"  alt="SW05" id ="sw05" />
+	</map>
+	<div id="sw01div"> <img src="sw01.png" alt "sw01" id="sw01blowup"/></div>
+	</div>
+</body>
+</html>
